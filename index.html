@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veltara</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Libre+Baskerville:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="app">
+      <header class="hero" id="home">
+        <div class="hero-shell">
+          <div class="hero-media" aria-hidden="true">
+            <video autoplay muted loop playsinline preload="auto">
+              <source src="https://www.pexels.com/download/video/31631562/" type="video/mp4" />
+            </video>
+          </div>
+
+          <div class="top-banner" id="top-banner">
+            <p class="top-banner-text">
+              Training Calendar 2026 is now open for registrations. Explore upcoming food safety,
+              HACCP, leadership, and operations programs.
+              <a href="#calendar">View calendar</a>
+            </p>
+            <button
+              class="top-banner-close"
+              type="button"
+              aria-label="Dismiss training calendar announcement"
+            >
+              x
+            </button>
+          </div>
+
+          <nav class="site-nav" aria-label="Primary">
+            <a class="brand" href="#home" aria-label="Veltara home">
+              <img
+                class="brand-logo"
+                src="veltara_logo_nav.png"
+                alt="Veltara - Guiding Businesses Toward Excellence"
+                width="440"
+                height="161"
+                decoding="async"
+                fetchpriority="high"
+              />
+            </a>
+
+            <div class="nav-desktop" aria-label="Desktop navigation">
+              <a href="#about">About Us</a>
+              <a href="#services">Services</a>
+              <a href="#corporate">Corporate Solutions</a>
+              <a href="#blog">Blog</a>
+              <a href="#contact">Contact Us</a>
+            </div>
+
+            <div class="nav-actions">
+              <a class="nav-cta" href="#contact">Request Training</a>
+            </div>
+
+            <button
+              class="nav-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="site-menu"
+              aria-label="Open navigation menu"
+            >
+              <span class="nav-toggle-icon" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </button>
+
+            <div class="nav-links" id="site-menu">
+              <a href="#about">About Us</a>
+              <a href="#services">Services</a>
+              <a href="#corporate">Corporate Solutions</a>
+              <a href="#blog">Blog</a>
+              <a href="#contact">Contact Us</a>
+            </div>
+          </nav>
+
+          <section class="hero-content" aria-labelledby="hero-title">
+            <div class="hero-text-block">
+              <p class="hero-kicker">Professional food safety and business services</p>
+              <h1 class="hero-title" id="hero-title">
+                Building food businesses that grow with
+                <span>confidence.</span>
+              </h1>
+              <p class="hero-copy">
+                Veltara delivers focused training and consultancy that strengthens compliance,
+                leadership, and daily operations across modern food businesses.
+              </p>
+
+              <div class="hero-actions">
+                <a class="button button-primary" href="#contact">Request Training</a>
+                <a class="button button-secondary" href="#services">Explore Services</a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </header>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div class="about-shell">
+          <div class="about-eyebrow">About Us</div>
+
+          <div class="about-grid">
+            <div class="about-media-column">
+              <div class="about-stat">
+                <strong>Compliance-first</strong>
+                <span>Training and consultancy shaped for food operations, audits, and team growth.</span>
+              </div>
+
+              <figure class="about-image-card">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1681489491174-d4e951c27bd9?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=1200"
+                  alt="Two professionals reviewing documents in a restaurant setting"
+                />
+              </figure>
+            </div>
+
+            <div class="about-content">
+              <h2 class="about-title" id="about-title">
+                Helping food businesses strengthen safety,<br> leadership, and everyday performance.
+              </h2>
+
+              <p class="about-copy">
+                Veltara supports restaurants, hospitality teams, and food businesses with practical
+                training and consultancy that turns standards into confident daily action. Our work
+                is built around real operational needs, from food safety compliance and HACCP
+                systems to people development and service consistency.
+              </p>
+
+              <p class="about-copy">
+                We partner with teams that want more than box-ticking. We help build stronger
+                cultures, clearer processes, and more resilient operations through structured
+                learning, tailored advisory support, and measurable improvement plans.
+              </p>
+
+              <div class="about-metrics" aria-label="Veltara highlights">
+                <article class="about-metric">
+                  <strong class="count-up" data-count="120">0</strong>
+                  <span>Training sessions delivered</span>
+                </article>
+                <article class="about-metric">
+                  <strong class="count-up" data-count="35">0</strong>
+                  <span>Business teams supported</span>
+                </article>
+                <article class="about-metric">
+                  <strong class="count-up" data-count="98">0</strong>
+                  <span>Client-focused delivery standard</span>
+                </article>
+              </div>
+
+              <a class="about-link" href="#contact">Talk to Veltara</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services-section" id="services" aria-labelledby="services-title">
+        <div class="services-shell">
+          <div class="services-intro">
+            <p class="services-kicker">Services</p>
+            <h2 class="services-title" id="services-title">
+              Focused service lines built for food safety, stronger<br> teams, and better daily
+              operations.
+            </h2>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card">
+              <div class="service-visual service-visual-training" aria-hidden="true">
+                <video autoplay muted loop playsinline preload="metadata">
+                  <source src="https://www.pexels.com/download/video/10763481/" type="video/mp4" />
+                </video>
+              </div>
+              <h3>Training Programs</h3>
+              <p>
+                Practical learning for teams, supervisors, and managers focused on compliance,
+                service consistency, and confident execution.
+              </p>
+              <a class="service-link" href="#contact">Explore training</a>
+            </article>
+
+            <article class="service-card">
+              <div class="service-visual service-visual-consultancy" aria-hidden="true">
+                <video autoplay muted loop playsinline preload="metadata">
+                  <source src="https://www.pexels.com/download/video/7148968/" type="video/mp4" />
+                </video>
+              </div>
+              <h3>Consultancy Services</h3>
+              <p>
+                Tailored advisory support to improve processes, sharpen execution, and resolve
+                operational gaps across food businesses.
+              </p>
+              <a class="service-link" href="#contact">Discuss consultancy</a>
+            </article>
+
+            <article class="service-card">
+              <div class="service-visual service-visual-safety" aria-hidden="true">
+                <video autoplay muted loop playsinline preload="metadata">
+                  <source src="https://www.pexels.com/download/video/5780024/" type="video/mp4" />
+                </video>
+              </div>
+              <h3>Food Safety &amp; HACCP Solutions</h3>
+              <p>
+                Support for HACCP systems, audit readiness, compliance frameworks, and stronger
+                food safety culture in daily operations.
+              </p>
+              <a class="service-link" href="#contact">View safety support</a>
+            </article>
+
+            <article class="service-card">
+              <div class="service-visual service-visual-leadership" aria-hidden="true">
+                <video autoplay muted loop playsinline preload="metadata">
+                  <source src="https://www.pexels.com/download/video/7149325/" type="video/mp4" />
+                </video>
+              </div>
+              <h3>Leadership &amp; Operations Development</h3>
+              <p>
+                Capability-building for leaders who need clearer accountability, stronger
+                decision-making, and more consistent team performance.
+              </p>
+              <a class="service-link" href="#contact">Build leadership capability</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="calendar-section" id="calendar" aria-labelledby="calendar-title">
+        <div class="calendar-shell">
+          <div class="calendar-header">
+            <div class="calendar-intro">
+              <p class="calendar-kicker">Training Calendar</p>
+              <h2 class="calendar-title" id="calendar-title">Upcoming courses with flexible registration options.</h2>
+              <p class="calendar-copy">
+                Reserve a seat for scheduled programs or register your interest for private team sessions.
+                Each course is designed for practical implementation inside real food business environments.
+              </p>
+            </div>
+
+            <button class="calendar-cta" type="button" data-open-register>
+              Register now
+              <span aria-hidden="true">&rarr;</span>
+            </button>
+          </div>
+
+          <div class="calendar-table-wrap">
+            <table class="calendar-table">
+              <thead>
+                <tr>
+                  <th scope="col" class="calendar-col-date">Date</th>
+                  <th scope="col" class="calendar-col-program">Training Program</th>
+                  <th scope="col" class="calendar-col-duration">Duration</th>
+                  <th scope="col" class="calendar-col-availability">Availability</th>
+                  <th scope="col" class="calendar-action-head calendar-col-action">Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Date"><span class="calendar-date">Jun 26, 2026</span></td>
+                  <td data-label="Training Program" class="calendar-program">Food Safety Foundations</td>
+                  <td data-label="Duration">3 Hours</td>
+                  <td data-label="Availability">Open Registration</td>
+                  <td data-label="Action" class="calendar-action-cell">
+                    <button class="calendar-link" type="button" data-open-register data-course="food-safety-foundations">
+                      Reserve Seat
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td data-label="Date"><span class="calendar-date">Jul 03, 2026</span></td>
+                  <td data-label="Training Program" class="calendar-program">HACCP Implementation Workshop</td>
+                  <td data-label="Duration">Half Day</td>
+                  <td data-label="Availability">Limited Seats</td>
+                  <td data-label="Action" class="calendar-action-cell">
+                    <button class="calendar-link" type="button" data-open-register data-course="haccp-workshop">
+                      Reserve Seat
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td data-label="Date"><span class="calendar-date">Jul 12, 2026</span></td>
+                  <td data-label="Training Program" class="calendar-program">Leadership for Operations Teams</td>
+                  <td data-label="Duration">4 Hours</td>
+                  <td data-label="Availability">Open Registration</td>
+                  <td data-label="Action" class="calendar-action-cell">
+                    <button class="calendar-link" type="button" data-open-register data-course="leadership-operations">
+                      Reserve Seat
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td data-label="Date"><span class="calendar-date">Custom Dates</span></td>
+                  <td data-label="Training Program" class="calendar-program">Corporate Team Sessions</td>
+                  <td data-label="Duration">Flexible</td>
+                  <td data-label="Availability">Available</td>
+                  <td data-label="Action" class="calendar-action-cell">
+                    <button class="calendar-link" type="button" data-open-register data-course="corporate-sessions">
+                      Request Proposal
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="corporate-section" id="corporate" aria-labelledby="corporate-title">
+        <div class="corporate-shell">
+          <div class="corporate-intro">
+            <p class="corporate-kicker">Corporate Solutions</p>
+            <h2 class="corporate-title" id="corporate-title">
+              Built for teams that need aligned training, stronger workshops, and support across
+              every location.
+            </h2>
+          </div>
+
+          <div class="corporate-grid">
+            <article class="corporate-card corporate-card-left">
+              <div class="corporate-pin" aria-hidden="true"></div>
+              <h3>Customized training programs</h3>
+              <p>
+                Tailored learning tracks designed around your operating model, team structure, and
+                compliance priorities.
+              </p>
+            </article>
+
+            <article class="corporate-card corporate-card-center">
+              <div class="corporate-pin" aria-hidden="true"></div>
+              <h3>Corporate workshops</h3>
+              <p>
+                Practical workshop sessions that help managers and teams improve food safety,
+                leadership, and day-to-day execution.
+              </p>
+            </article>
+
+            <article class="corporate-card corporate-card-right">
+              <div class="corporate-pin" aria-hidden="true"></div>
+              <h3>Multi-location support</h3>
+              <p>
+                Consistent delivery for businesses operating across multiple branches, sites, or
+                regional teams that need one clear standard.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-section" id="blog" aria-labelledby="blog-title">
+        <div class="blog-shell">
+          <div class="blog-header">
+            <div class="blog-intro">
+              <p class="blog-kicker">Knowledge Center</p>
+              <h2 class="blog-title" id="blog-title">
+                Practical insights for food safety, operations, leadership, and service quality.
+              </h2>
+            </div>
+
+            <div class="blog-controls" aria-label="Blog carousel controls">
+              <button class="blog-control" type="button" data-blog-prev aria-label="Previous posts">
+                <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+              </button>
+              <button class="blog-control" type="button" data-blog-next aria-label="Next posts">
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="blog-carousel" data-blog-track>
+            <article class="blog-card">
+              <div class="blog-media" aria-hidden="true">
+                <video autoplay muted loop playsinline preload="metadata">
+                  <source src="https://www.pexels.com/download/video/10763481/" type="video/mp4" />
+                </video>
+              </div>
+              <div class="blog-card-body">
+                <p class="blog-meta">Food Safety</p>
+                <h3>How to make food safety training stick during busy service weeks</h3>
+                <p>
+                  A practical approach to building safer habits without overwhelming kitchen teams
+                  or slowing daily operations.
+                </p>
+                <div class="blog-tags">
+                  <span>Training</span>
+                  <span>Compliance</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="blog-card">
+              <div class="blog-media" aria-hidden="true">
+                <video autoplay muted loop playsinline preload="metadata">
+                  <source src="https://www.pexels.com/download/video/7148968/" type="video/mp4" />
+                </video>
+              </div>
+              <div class="blog-card-body">
+                <p class="blog-meta">Operations</p>
+                <h3>Five signs your operations workshop needs clearer follow-through</h3>
+                <p>
+                  Learn how to turn workshop energy into measurable action plans that teams can
+                  actually carry forward.
+                </p>
+                <div class="blog-tags">
+                  <span>Workshops</span>
+                  <span>Execution</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="blog-card">
+              <div class="blog-media" aria-hidden="true">
+                <video autoplay muted loop playsinline preload="metadata">
+                  <source src="https://www.pexels.com/download/video/5780024/" type="video/mp4" />
+                </video>
+              </div>
+              <div class="blog-card-body">
+                <p class="blog-meta">HACCP</p>
+                <h3>Keeping HACCP systems practical for frontline teams</h3>
+                <p>
+                  Strong documentation matters, but daily clarity matters more. Here is how to make
+                  HACCP easier to apply on the floor.
+                </p>
+                <div class="blog-tags">
+                  <span>HACCP</span>
+                  <span>Systems</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact-us" aria-labelledby="contact-us-title">
+        <div class="contact-shell">
+          <div class="contact-intro">
+            <p class="contact-kicker">Contact Us</p>
+            <h2 class="contact-title" id="contact-us-title">Visit us in Dubai or get in touch directly.</h2>
+          </div>
+
+          <div class="contact-details-row">
+            <article class="contact-detail">
+              <p class="contact-detail-label">Address</p>
+              <p class="contact-detail-value">Dubai, United Arab Emirates</p>
+            </article>
+            <article class="contact-detail">
+              <p class="contact-detail-label">Phone</p>
+              <a class="contact-detail-value" href="tel:+971456789">+971456789</a>
+            </article>
+            <article class="contact-detail">
+              <p class="contact-detail-label">Email</p>
+              <a class="contact-detail-value" href="mailto:info@veltara.ae">info@veltara.ae</a>
+            </article>
+          </div>
+
+          <div class="contact-map-wrap" aria-label="Dubai map preview">
+            <iframe
+              title="Dubai map"
+              src="https://www.google.com/maps?q=Dubai%2C%20United%20Arab%20Emirates&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer" id="contact" aria-labelledby="footer-title">
+        <div class="footer-shell">
+          <div class="footer-top">
+            <div class="footer-brand-column">
+              <a class="footer-brand" href="#home" id="footer-title">Veltara</a>
+              <p class="footer-copy">
+                A training and consultancy partner for food businesses that want stronger
+                compliance, better operations, and more confident teams.
+              </p>
+              <div class="footer-actions">
+                <a class="footer-button" href="mailto:info@veltara.ae">
+                  <span class="footer-icon" aria-hidden="true">?</span>
+                  <span>info@veltara.ae</span>
+                </a>
+                <a class="footer-button" href="tel:+971456789">
+                  <span class="footer-icon" aria-hidden="true">?</span>
+                  <span>+971456789</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="footer-links-column">
+              <p class="footer-heading">Company</p>
+              <a href="#about">About Us</a>
+              <a href="#services">Services</a>
+              <a href="#corporate">Corporate Solutions</a>
+              <a href="#blog">Blog</a>
+            </div>
+
+            <div class="footer-links-column">
+              <p class="footer-heading">Support</p>
+              <a href="#calendar">Training Calendar</a>
+              <a href="#contact">Contact Us</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms &amp; Conditions</a>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <p>&copy; 2026 Veltara. All rights reserved.</p>
+            <p>Food safety, consultancy, training, and leadership support for modern food businesses.</p>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <div class="modal-backdrop" id="register-modal" hidden>
+      <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="register-title">
+        <button class="modal-close" type="button" aria-label="Close registration form">&times;</button>
+        <p class="modal-kicker">Training Registration</p>
+        <h2 class="modal-title" id="register-title">Register your interest</h2>
+        <p class="modal-copy">
+          Share your basic details and we'll confirm course availability, next steps, and registration options.
+        </p>
+
+        <form class="register-form">
+          <div class="register-form-row">
+            <label>
+              Full name
+              <input type="text" name="full_name" placeholder="Your full name" required />
+            </label>
+            <label>
+              Email address
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+          </div>
+          <div class="register-form-row">
+            <label>
+              Phone number
+              <input type="tel" name="phone" placeholder="123456789" required />
+            </label>
+            <label>
+              Company
+              <input type="text" name="company" placeholder="Business or organization" />
+            </label>
+          </div>
+          <label class="register-form-full" id="register-course-label">
+            Selected course
+            <div class="course-select" id="register-course-wrapper">
+              <select name="course" id="register-course" class="course-select-native" required tabindex="-1" aria-hidden="true">
+                <option value="">Select a course</option>
+                <option value="food-safety-foundations">Food Safety Foundations � Jun 26, 2026</option>
+                <option value="haccp-workshop">HACCP Implementation Workshop � Jul 03, 2026</option>
+                <option value="leadership-operations">Leadership for Operations Teams � Jul 12, 2026</option>
+                <option value="corporate-sessions">Corporate Team Sessions � Custom Dates</option>
+              </select>
+              <button
+                type="button"
+                class="course-select-trigger"
+                id="register-course-trigger"
+                aria-haspopup="listbox"
+                aria-expanded="false"
+                aria-controls="register-course-menu"
+              >
+                <span class="course-select-value">Select a course</span>
+                <span class="course-select-chevron" aria-hidden="true"></span>
+              </button>
+              <ul class="course-select-menu" id="register-course-menu" role="listbox" hidden></ul>
+            </div>
+          </label>
+          <button class="register-submit" type="submit">Submit registration</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
